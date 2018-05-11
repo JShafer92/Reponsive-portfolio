@@ -215,3 +215,43 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+/* media */
+
+@media only screen and (max-width: 980px) {
+  .container{
+    width: 760px;
+    float: left;
+  }
+
+}
+
+@media only screen and (max-width: 768px) {
+  body{
+    width: 100%;
+  }
+  #logo{
+    display: block;
+    width: 100%;
+  }
+  .container{
+    width: 100%;
+  }
+  nav{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 640px){
+  .auth-image{
+    width: 100%
+  }
+  /* #main-container{
+    margin: 0 auto;
+  } */
+  .work{
+    width: 100%;
+  }
+}
